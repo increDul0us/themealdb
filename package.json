@@ -1,0 +1,32 @@
+{
+  "name": "themealdb",
+  "version": "1.0.0",
+  "description": "A nodejs backend that accept a list of meal IDs and return the ID of the meal that requires the least number of ingredients to prepare",
+  "main": "input.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/increDul0us/themealdb.git"
+  },
+  "author": "Chukwuka Praise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/increDul0us/themealdb/issues"
+  },
+  "homepage": "https://github.com/increDul0us/themealdb#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
