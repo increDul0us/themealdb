@@ -1,0 +1,21 @@
+<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+  <div class="card-body">
+    <h4 class="card-title">Enter meal ids</h4>
+      <% include ./partials/messages %>
+      <div class="card-body">
+       <form action="/" method="POST">
+            <div class="form-group">
+                <input
+                    type="mealid"
+                    id="mealid"
+                    name="mealid"
+                    class="form-control"
+                    placeholder="Enter Meal id"
+                />
+            </div>
+            <button type="submit" name="postid" value="addmore" class="btn btn-primary">Add More</button>
+            <button type="submit" name="postid" value="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>  
+</div>
